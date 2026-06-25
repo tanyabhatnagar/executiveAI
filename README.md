@@ -1,4 +1,4 @@
-# 🚀 ExecuteAI — Autonomous AI Work Operating System
+# ExecuteAI — Autonomous AI Work Operating System
 
 > **Give AI a goal. It plans, creates specialized agents, executes work, validates the results, and delivers a completed solution.**
 
@@ -8,9 +8,9 @@ Unlike traditional AI applications that rely on predefined workflows, ExecuteAI 
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
-### 🔗 Frontend
+###  Frontend
 **https://executive-ai-beryl.vercel.app**
 
 ### ⚡ Backend API
@@ -18,7 +18,7 @@ Unlike traditional AI applications that rely on predefined workflows, ExecuteAI 
 
 ---
 
-# ✨ Why ExecuteAI?
+#  Why ExecuteAI?
 
 Modern AI assistants generate responses.
 
@@ -26,18 +26,18 @@ Modern AI assistants generate responses.
 
 Given a single objective, the system automatically:
 
-- 🧠 Understands the user's goal
-- 📋 Creates an execution blueprint
-- 🤖 Generates specialized AI agents
-- 🔄 Orchestrates multi-step execution
-- 💾 Maintains project memory
-- ✅ Self-validates AI outputs
-- 👤 Supports human review & regeneration
-- 📄 Exports production-ready deliverables
+-  Understands the user's goal
+-  Creates an execution blueprint
+-  Generates specialized AI agents
+-  Orchestrates multi-step execution
+-  Maintains project memory
+-  Self-validates AI outputs
+-  Supports human review & regeneration
+-  Exports production-ready deliverables
 
 ---
 
-# 🏗 System Architecture
+#  System Architecture
 
 ```text
                    User Goal
@@ -66,9 +66,9 @@ Given a single objective, the system automatically:
 
 ---
 
-# 🚀 Core Features
+#  Core Features
 
-### 🧠 AI Planning Engine
+###  AI Planning Engine
 
 Transforms high-level goals into structured execution blueprints containing:
 
@@ -80,19 +80,19 @@ Transforms high-level goals into structured execution blueprints containing:
 
 ---
 
-### 🤖 Dynamic Agent Orchestration
+###  Dynamic Agent Orchestration
 
 Instead of hardcoding workflows, ExecuteAI dynamically coordinates multiple AI agents using **LangGraph** to complete complex tasks collaboratively.
 
 ---
 
-### 💾 Persistent Project Memory
+###  Persistent Project Memory
 
 Stores important execution context and previous deliverables, allowing future executions to build upon earlier work.
 
 ---
 
-### ✅ AI Self Validation
+###  AI Self Validation
 
 Every execution is automatically evaluated for quality and confidence.
 
@@ -100,7 +100,7 @@ If confidence falls below the required threshold, ExecuteAI regenerates the outp
 
 ---
 
-### 👤 Human-in-the-Loop
+###  Human-in-the-Loop
 
 Users can:
 
@@ -111,7 +111,7 @@ Users can:
 
 ---
 
-### 📄 Export Ready Deliverables
+###  Export Ready Deliverables
 
 Generate professional project outputs that can be exported as:
 
@@ -120,7 +120,7 @@ Generate professional project outputs that can be exported as:
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 ## Frontend
 
@@ -207,7 +207,7 @@ npm run dev
 
 ---
 
-# 🎯 What This Project Demonstrates
+#  What This Project Demonstrates
 
 - End-to-end AI product development
 - Multi-agent workflow orchestration
@@ -226,7 +226,7 @@ npm run dev
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 - Parallel agent execution
 - Vector memory (pgvector)
@@ -239,7 +239,7 @@ npm run dev
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Tanya Bhatnagar**
 
