@@ -4,12 +4,11 @@ services:
     env: python
     plan: free
     region: oregon
-    buildCommand: poetry install --no-interaction --no-ansi
+    buildCommand: pip install -r backend/requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     autoDeploy: true
-  - envVars:
+    envVars:
       - key: DATABASE_URL
-        value: ${DATABASE_URL}     
+        value: ${DATABASE_URL}
       - key: GEMINI_API_KEY
         value: ${GEMINI_API_KEY}
-     
