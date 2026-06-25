@@ -1,5 +1,6 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
+import os
 from fastapi.middleware.cors import CORSMiddleware
 from app.database.session import engine
 from app.models import Base
@@ -16,7 +17,7 @@ app = FastAPI(title="ExecuteAI API", version="0.1.0", lifespan=lifespan)
 # CORS middleware configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, restrict this to specific origins
+    allow_origins=[os.getenv("FRONTEND_ORIGIN", "*")],  # Restrict to Vercel frontend origin in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
