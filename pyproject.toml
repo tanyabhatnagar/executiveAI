@@ -5,6 +5,7 @@ description = "ExecuteAI backend"
 authors = ["tanya <tanya@example.com>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.13"
