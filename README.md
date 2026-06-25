@@ -13,7 +13,7 @@ Unlike traditional AI applications that rely on predefined workflows, ExecuteAI 
 ###  Frontend
 **https://executive-ai-beryl.vercel.app**
 
-### ⚡ Backend API
+###  Backend API
 **https://executeai.onrender.com**
 
 ---
